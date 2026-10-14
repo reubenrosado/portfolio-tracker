@@ -93,7 +93,11 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000). Edits stay in this browser under the key `portfolio-tracker.target.v1`.
 
-No environment variables are required. Copy `.env.example` to `.env.local` only when you are ready to point a future Supabase client at a project. Do not commit real keys. `.env.example` is the only env file tracked here, and its values are empty.
+## Live preview
+
+The GitHub repo is connected to Vercel (project `reubenrosados-projects/portfolio-tracker`). Pull requests get a preview deployment, and the production site follows the default branch. The designer still stores the portfolio in the browser.
+
+No environment variables are required to run the app locally or on the preview. Copy `.env.example` to `.env.local` only when you are ready to point a future Supabase client at a project. Do not commit real keys. `.env.example` is the only env file tracked here, and its values are empty.
 
 ## Scripts
 
